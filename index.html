@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Responsive Design testing</title>
+  <meta name="Author" content="Jose Suarez Cordova">
+  <meta name="Keywords" content="responsive design, emulator, jose suarez, web developer">
+  <meta name="Description" content="Aplication to test Websites Responsive Design">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <style>
+   body{font-family: helvetica; color:#C3C3C3;}
+  .container{clear:both; margin:auto; width:100%;}
+  .device{float:left; border:1px solid gray; padding:0; margin:5px;}
+  .device div{background: gray; color:#fff; font-family:helvetica;}
+  iframe{overflow: scroll; padding:0; border:0;}
+  #testcontainer{float:left; width:auto; overflow:auto;}
+  h1{}
+
+  input[type='url']{width:50%; height:20px; padding:5px; font-size:16px; color:#CCC;}
+  input[type='button']{width:50px; height:40px;  font-size: 20px;}
+  </style>
+ </head>
+
+ <body>
+ <section>
+     <div class="container">
+         <h1>Responsive Design testing tool</h1>
+         <input type="url" name="urltest" id="urltest" placeholder="URL include http://"><input type="button" value="ok" id="btnOk">
+         <a href="#" id="restore">Restore URL from XML file</a>
+     </div>
+     <div id="testcontainer"></div>
+</section>
+
+ <footer>
+ </footer>
+
+
+ </body>
+</html>

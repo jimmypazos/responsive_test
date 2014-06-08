@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : setting.xml
+    Created on : 8 de junio de 2014, 16:52
+    Author     : jose suarez
+    Description:
+        Data structure per every device to test.
+-->
+
+<root>
+    <url><![CDATA[http://josesuarezcordova.com]]></url>
+    <devices>
+        <device>
+            <id><![CDATA[iphone4]]></id>
+            <name><![CDATA[Iphone 4 (320x480)]]></name>
+            <width><![CDATA[320px]]></width>
+            <height><![CDATA[480px]]></height>
+        </device>
+
+       <device>
+            <id><![CDATA[galaxys2]]></id>
+            <name><![CDATA[Galaxy S2 (320x533)]]></name>
+            <width><![CDATA[320px]]></width>
+            <height><![CDATA[533px]]></height>
+        </device>
+
+        <device>
+            <id><![CDATA[iphone5]]></id>
+            <name><![CDATA[Iphone 5 (320x568)]]></name>
+            <width><![CDATA[320px]]></width>
+            <height><![CDATA[568px]]></height>
+        </device>
+
+        <device>
+            <id><![CDATA[nexus7]]></id>
+            <name><![CDATA[Nexus 7 (966x603)]]></name>
+            <width><![CDATA[966px]]></width>
+            <height><![CDATA[603px]]></height>
+        </device>
+    </devices>
+</root>
